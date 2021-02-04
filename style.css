@@ -1,0 +1,50 @@
+body {
+    font-style: sans-serif;
+}
+
+h1 {
+    border: 5px black solid;
+    font-size: 55px;
+    text-align: center;
+}
+
+p {
+    font-size: 25px;
+}
+
+p.first {
+    border-top: 21px red double;
+    border-left: 21px red double;
+}
+
+p.second {
+    border-top: 5px dashed blue;
+    border-left: 35px green dashed;
+    border-bottom: 20px dashed blue;
+    border-right: 11px green dashed;
+}
+
+p.third {
+    border-top: 40px rgb(255, 208, 0) double;
+    border-bottom: 40px rgb(255, 208, 0) double;
+    border-right: 10px rgb(255, 208, 0) double;
+    border-left: 10px rgb(255, 208, 0) double;
+}
+
+p.fourth {
+border-color: rgb(71, 255, 47) white blue ;
+border-style: solid;
+border-width: 20px 0px;
+}
+
+p.fifth {
+border-color: red black black;
+border-width: 40px;
+border-style: dashed solid dotted;
+}
+
+p.sixth {
+    border-color: black black black red;
+    border-width: 10px 40px 20px;
+    border-style: dotted solid dashed double;
+}
